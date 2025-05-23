@@ -1,0 +1,58 @@
+# SPDX-FileCopyrightText: (C) 2025 Rivos Inc.
+# SPDX-License-Identifier: Apache-2.0
+
+name: pages
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Prepare directory
+        run: |
+          mkdir -p public
+          ln -sf scampi.html public/index.html
+      - name: Generate HTML files
+        uses: dnschneid/kischvidimer/ci/schgen@main
+        with:
+          kicad_pro: scampi.kicad_pro
+          output: public/scampi.html
+          args: "--license-file LICENSE
+            --license-header 'licensed as follows:\n\
+            SPDX-FileCopyrightText: (C) 2025 Rivos Inc.\n\
+            SPDX-License-Identifier: CERN-OHL-P-2.0+
+            '"
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
