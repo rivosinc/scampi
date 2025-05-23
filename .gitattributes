@@ -1,1 +1,4 @@
+# SPDX-FileCopyrightText: (C) 2025 Rivos Inc.
+# SPDX-License-Identifier: Apache-2.0
+
 *.brd filter=lfs diff=lfs merge=lfs -text
