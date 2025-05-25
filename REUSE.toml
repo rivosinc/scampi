@@ -8,6 +8,7 @@ version = 1
 path = [
   "**.kicad_sch",
   "**.kicad_pro",
+  "**.kicad_wks",
   "**.brd",
 ]
 SPDX-FileCopyrightText  = "(C) 2025 Rivos Inc."
