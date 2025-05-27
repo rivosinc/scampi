@@ -1,0 +1,4058 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a8835b20-a0a9-4677-a4d2-8781694cbac0")
+	(paper "B")
+	(title_block
+		(title "${PROJ}")
+		(rev "${REV}")
+		(company "${RPN}")
+		(comment 1 "LVL Shifter")
+	)
+	(lib_symbols
+		(symbol "Capacitors, ceramic, Murata:CCM-610AA"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CCM-610AA"
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP, ceramic, 0.10µF, 0201, 10V, ±20%, X5R, 0.33 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "val" "0.10µF"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "pkg" "0201"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "volt" "10V"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "type" "X5R"
+				(at 1.27 -2.54 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "tol" "±20%"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "height" "0.33mm"
+				(at -2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mpn" "GRM033R61A104ME15"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mfr" "Murata"
+				(at -1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "c=${val}"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0.1uF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAPC0603 CAPC0603L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CCM-610AA_1_1"
+				(polyline
+					(pts
+						(xy -1.016 -0.423) (xy 1.016 -0.423)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.423) (xy 1.016 0.423)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "in" input line)
+					(alternate "out" output line)
+					(alternate "pwr_in" power_in line)
+					(alternate "pwr_out" power_out line)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "in" input line)
+					(alternate "out" output line)
+					(alternate "pwr_in" power_in line)
+					(alternate "pwr_out" power_out line)
+				)
+			)
+		)
+		(symbol "Power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Translation:LVL-2T245"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LVL-2T245"
+				(at 7.62 10.16 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74avc2t245.pdf"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC, level shifter, 2-bit, 1.2V-3.6V, 240 Mbps, dir, QFN10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "${RIVOS_SPICE_DIR}/SN74AVCxTx45.lib"
+				(at -7.62 12.7 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=DIR2 2=OE_L 3=GND 4=B2 5=B1 6=VCCB 7=VCCA 8=A1 9=A2 10=DIR1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "SN74AVC2T245"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet2" "https://assets.nexperia.com/documents/data-sheet/74AVC2T245.pdf"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+					(hide yes)
+				)
+			)
+			(property "mfr" "Texas Instruments"
+				(at -7.62 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left top)
+				)
+			)
+			(property "mpn" "SN74AVC2T245RSW"
+				(at -7.62 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left top)
+				)
+			)
+			(property "mfr2" "Nexperia"
+				(at -7.62 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "mpn2" "74AVC2T245GU"
+				(at -7.62 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "pkg" "QFN10"
+				(at -7.62 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left top)
+				)
+			)
+			(property "height" "0.55mm"
+				(at -7.62 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "func_lvl" ".*1;.*2"
+				(at -7.62 -25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "742T45 742T245"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "qfn40p180x140-10n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LVL-2T245_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 3.556) (xy -0.762 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 2.54) (xy 2.794 1.524) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 1.524) (xy -2.54 1.524) (xy -2.54 2.54) (xy -4.572 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 2.54) (xy -0.762 4.572) (xy 1.016 3.556) (xy -0.762 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 3.556) (xy 2.794 3.556) (xy 2.794 2.54) (xy 4.064 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.54) (xy 1.016 0.762) (xy 1.016 0.508) (xy -0.762 1.524) (xy 1.016 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LVL-2T245_1_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.524) (xy -0.762 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -2.54) (xy 2.794 -3.556) (xy 1.016 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -3.556) (xy -2.54 -3.556) (xy -2.54 -2.54) (xy -4.572 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -2.54) (xy -0.762 -0.508) (xy 1.016 -1.524) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.524) (xy 2.794 -1.524) (xy 2.794 -2.54) (xy 4.064 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.54) (xy 1.016 -4.318) (xy 1.016 -4.572) (xy -0.762 -3.556) (xy 1.016 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "DIR2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "DIR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "OE_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 200.66 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05f2ff5d-b115-4d9d-a0d0-ad2b3f3e9207")
+	)
+	(junction
+		(at 182.88 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c277a69-fbfc-412d-afe0-08bcba7e8e58")
+	)
+	(junction
+		(at 259.08 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f5422eb-7813-43fd-8ea7-34fcf181d9e5")
+	)
+	(junction
+		(at 243.84 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23130634-98d8-42f8-83ed-818cae98aa37")
+	)
+	(junction
+		(at 259.08 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2489ed01-7a1d-45f1-894f-3436730a4155")
+	)
+	(junction
+		(at 187.96 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4241e847-b81f-45b5-8be5-208b4cf0f221")
+	)
+	(junction
+		(at 182.88 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "816ed93d-4fbf-41b3-ae57-d188c29ffc09")
+	)
+	(junction
+		(at 243.84 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a24c8e24-b684-4997-b058-0999a12afcdd")
+	)
+	(junction
+		(at 200.66 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6a79b28-912a-42aa-89a5-3098289007f9")
+	)
+	(junction
+		(at 243.84 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c27e8897-60d9-4cc5-bbb5-8e787bbe0604")
+	)
+	(junction
+		(at 200.66 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c73c8b19-9451-42a9-a450-f15f57b11a77")
+	)
+	(junction
+		(at 187.96 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbb4998d-6f29-4a4f-a1cb-ae9575e97cb1")
+	)
+	(wire
+		(pts
+			(xy 236.22 88.9) (xy 236.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ab89c3-4a9b-488c-85d4-ea7b75611e78")
+	)
+	(wire
+		(pts
+			(xy 210.82 127) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbe6565-4dab-4856-a44e-16b3427470c6")
+	)
+	(wire
+		(pts
+			(xy 243.84 121.92) (xy 259.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14759104-5151-4cb9-ae84-a3e866637f8f")
+	)
+	(wire
+		(pts
+			(xy 187.96 154.94) (xy 200.66 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a22716-be32-4fc8-a755-10ffbd2231d4")
+	)
+	(wire
+		(pts
+			(xy 210.82 165.1) (xy 213.36 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e1c7c9-dd97-42da-886b-e86aa3313137")
+	)
+	(wire
+		(pts
+			(xy 182.88 109.22) (xy 213.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd09db4-841d-4611-bd6a-3c7e2cfa3c3c")
+	)
+	(wire
+		(pts
+			(xy 238.76 142.24) (xy 238.76 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffc3659-38c0-4ffc-8946-f10aa20bc741")
+	)
+	(wire
+		(pts
+			(xy 187.96 121.92) (xy 200.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fbba22-04b6-4b3f-93e0-5a9b90f9a246")
+	)
+	(wire
+		(pts
+			(xy 259.08 121.92) (xy 259.08 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24024089-f868-4804-9811-ac40796bd165")
+	)
+	(wire
+		(pts
+			(xy 236.22 154.94) (xy 236.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259887a3-b126-47da-9e60-08dbab7b4581")
+	)
+	(wire
+		(pts
+			(xy 233.68 165.1) (xy 236.22 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2952d487-8bf6-41c2-9266-6633a6c9b372")
+	)
+	(wire
+		(pts
+			(xy 200.66 121.92) (xy 200.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29919583-7148-4eb8-96f7-1ec927b486a4")
+	)
+	(wire
+		(pts
+			(xy 200.66 88.9) (xy 210.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7075cd-b6c4-4b74-a587-8e18aad514a2")
+	)
+	(wire
+		(pts
+			(xy 213.36 93.98) (xy 210.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338d4a5e-d235-4bcc-a3b5-89a77a9147af")
+	)
+	(wire
+		(pts
+			(xy 243.84 121.92) (xy 243.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3995b478-90d4-48ce-a7f9-c33953f4c8b0")
+	)
+	(wire
+		(pts
+			(xy 233.68 175.26) (xy 238.76 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c5ec22-4eef-4a8f-b90d-bcf299c34afd")
+	)
+	(wire
+		(pts
+			(xy 233.68 170.18) (xy 236.22 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fdd402-051f-41c3-873f-a19386e72713")
+	)
+	(wire
+		(pts
+			(xy 210.82 170.18) (xy 213.36 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4c1376-41e8-40b6-ae43-a3946bc2a913")
+	)
+	(wire
+		(pts
+			(xy 210.82 137.16) (xy 213.36 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f374e97-0827-4dff-b1a1-1ae56f381046")
+	)
+	(wire
+		(pts
+			(xy 233.68 127) (xy 236.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fd8028-2742-47c4-8e6b-4928ce68704b")
+	)
+	(wire
+		(pts
+			(xy 213.36 104.14) (xy 210.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524af725-ece2-447c-b5d3-599f5793966b")
+	)
+	(wire
+		(pts
+			(xy 213.36 160.02) (xy 210.82 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54605f7e-64ce-4444-974a-444fa48bdab8")
+	)
+	(wire
+		(pts
+			(xy 210.82 132.08) (xy 213.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ec32d7-c628-4a8b-b4b8-08075e10cda1")
+	)
+	(wire
+		(pts
+			(xy 182.88 142.24) (xy 213.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586c2513-1e8f-4089-a90c-0cc2d90747d9")
+	)
+	(wire
+		(pts
+			(xy 200.66 154.94) (xy 200.66 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a2853c-c665-425e-a95e-794d70cc10f1")
+	)
+	(wire
+		(pts
+			(xy 238.76 109.22) (xy 233.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664e9844-c1e8-49e3-986b-6046e368594a")
+	)
+	(wire
+		(pts
+			(xy 200.66 121.92) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b43a49-3e65-4997-adc3-b01f5cf1ab02")
+	)
+	(wire
+		(pts
+			(xy 236.22 93.98) (xy 233.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca1e224-5d3d-4299-ba52-a4b63c3e2d34")
+	)
+	(wire
+		(pts
+			(xy 210.82 129.54) (xy 213.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72826fcc-dade-4e19-a955-b8609b5571e8")
+	)
+	(wire
+		(pts
+			(xy 213.36 96.52) (xy 210.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f8962a-5e32-41e7-92a3-e0e1091158e5")
+	)
+	(wire
+		(pts
+			(xy 238.76 111.76) (xy 238.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793cfd25-d1a1-48ef-aa09-58b4edea96e6")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7982f6d7-7e3a-4178-9b5e-caa225e1d34e")
+	)
+	(wire
+		(pts
+			(xy 233.68 137.16) (xy 236.22 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cda29e0-3aed-498f-9809-1cfacf814b47")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 187.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f892e43-8a16-4a52-854f-37d583395df1")
+	)
+	(wire
+		(pts
+			(xy 213.36 127) (xy 210.82 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800055dc-b7fc-41d9-976c-f6be08b0bbeb")
+	)
+	(wire
+		(pts
+			(xy 259.08 88.9) (xy 261.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82650db1-30fe-4759-99c7-9508b1096205")
+	)
+	(wire
+		(pts
+			(xy 200.66 88.9) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da19a49-92ff-4b47-9092-7779eb14937d")
+	)
+	(wire
+		(pts
+			(xy 243.84 154.94) (xy 259.08 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917b0e28-6cc0-4046-acf6-1521b7ad79e0")
+	)
+	(wire
+		(pts
+			(xy 210.82 172.72) (xy 213.36 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9689221e-4298-46f4-b8ef-3693b94534b8")
+	)
+	(wire
+		(pts
+			(xy 210.82 139.7) (xy 213.36 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c18ca2e-d40f-44e3-bf10-f64817b184eb")
+	)
+	(wire
+		(pts
+			(xy 182.88 142.24) (xy 182.88 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1edc547-aca7-4d08-a839-08edb9321474")
+	)
+	(wire
+		(pts
+			(xy 233.68 160.02) (xy 236.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46a5a81-46de-4901-a7a5-9e5ae5c5c4bb")
+	)
+	(wire
+		(pts
+			(xy 236.22 121.92) (xy 236.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacfcbaa-9dc9-4292-872e-bc9972df6741")
+	)
+	(wire
+		(pts
+			(xy 243.84 154.94) (xy 243.84 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae859da5-5d18-4fa0-89cc-64cf438bfbfb")
+	)
+	(wire
+		(pts
+			(xy 182.88 175.26) (xy 213.36 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b686afd0-730b-4a43-87bd-b87ec4ee8b01")
+	)
+	(wire
+		(pts
+			(xy 236.22 154.94) (xy 243.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b918fe07-850b-47ad-b164-d8fe6bd1d0c0")
+	)
+	(wire
+		(pts
+			(xy 213.36 99.06) (xy 210.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12dd502-79fa-4c30-8735-2933d6eae8eb")
+	)
+	(wire
+		(pts
+			(xy 210.82 160.02) (xy 210.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c200349a-4ce3-431f-80ff-cfc0377d995e")
+	)
+	(wire
+		(pts
+			(xy 177.8 109.22) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c371d775-a16e-4583-a142-4857aafa5de1")
+	)
+	(wire
+		(pts
+			(xy 200.66 154.94) (xy 210.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d470a4-e32a-483e-90d8-b36e9e89a5da")
+	)
+	(wire
+		(pts
+			(xy 243.84 88.9) (xy 259.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb46a280-f692-4b1d-a89b-a9c1a037b2ba")
+	)
+	(wire
+		(pts
+			(xy 210.82 93.98) (xy 210.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd03c69a-b8fc-4584-8b13-c21782442f90")
+	)
+	(wire
+		(pts
+			(xy 233.68 104.14) (xy 236.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12cb9d3-a043-4a83-a4d2-857047a5ea2e")
+	)
+	(wire
+		(pts
+			(xy 243.84 88.9) (xy 243.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2dcec43-4307-4365-8cb0-cb10fb0fd26d")
+	)
+	(wire
+		(pts
+			(xy 236.22 88.9) (xy 243.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41370c6-76e9-4a2c-80e9-14c2931e38b7")
+	)
+	(wire
+		(pts
+			(xy 233.68 132.08) (xy 236.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d908ab37-6a9b-4ce9-bf4a-008f6b45d9e8")
+	)
+	(wire
+		(pts
+			(xy 187.96 121.92) (xy 187.96 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de31ab59-114d-49b2-8a3e-3c4f8ccab626")
+	)
+	(wire
+		(pts
+			(xy 182.88 109.22) (xy 182.88 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1759331-0609-4bf3-9877-744bfb8d5b9b")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 200.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7443fc0-a6ee-4d15-aa1b-054eb5d1b2b6")
+	)
+	(wire
+		(pts
+			(xy 236.22 121.92) (xy 243.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e754bc58-cea6-447b-8834-0d03b6c6255e")
+	)
+	(wire
+		(pts
+			(xy 259.08 88.9) (xy 259.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3c55b3-1759-487e-817b-4fd16446441a")
+	)
+	(wire
+		(pts
+			(xy 213.36 106.68) (xy 210.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24da173-5890-4952-ac73-762e271afcf5")
+	)
+	(wire
+		(pts
+			(xy 233.68 142.24) (xy 238.76 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31543c4-fb15-4ab2-a041-e407e222a6ab")
+	)
+	(wire
+		(pts
+			(xy 238.76 175.26) (xy 238.76 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f60e416f-2981-44ed-9f7b-bf4acebac961")
+	)
+	(wire
+		(pts
+			(xy 210.82 162.56) (xy 213.36 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b08bd2-bad3-453c-ba4a-f482ab61f72b")
+	)
+	(wire
+		(pts
+			(xy 233.68 99.06) (xy 236.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd891031-f77e-47a6-b1f1-f4265ef46fb4")
+	)
+	(hierarchical_label "AtoB1"
+		(shape input)
+		(at 210.82 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01aab424-3ee8-4d03-ab79-ec102924af5d")
+	)
+	(hierarchical_label "AtoB2"
+		(shape input)
+		(at 210.82 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02cec3ab-184a-418c-9116-5d33b1b70181")
+	)
+	(hierarchical_label "OE_L"
+		(shape input)
+		(at 177.8 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0386e66a-67fc-417d-8574-e1968729df84")
+	)
+	(hierarchical_label "PPVAR_A"
+		(shape input)
+		(at 177.8 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21afbb24-410c-4b8b-a071-43e5e65bd811")
+	)
+	(hierarchical_label "B2"
+		(shape bidirectional)
+		(at 236.22 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cc68e0d-d240-4c92-8d3a-29349654e4e4")
+	)
+	(hierarchical_label "B5"
+		(shape bidirectional)
+		(at 236.22 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48eeecb8-e90f-4db2-befc-1e6999a587bc")
+	)
+	(hierarchical_label "AtoB3"
+		(shape input)
+		(at 210.82 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "542612b3-7f2d-48c8-b587-aa5aa55bb6c9")
+	)
+	(hierarchical_label "B1"
+		(shape bidirectional)
+		(at 236.22 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77601142-377d-42cb-be12-b1e269cd5bcf")
+	)
+	(hierarchical_label "A4"
+		(shape bidirectional)
+		(at 210.82 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b16d594-9b8b-4f8c-bd26-51f5fa8472cd")
+	)
+	(hierarchical_label "AtoB4"
+		(shape input)
+		(at 210.82 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a7b399e-abde-4f22-93b5-8aa898bbe3f2")
+	)
+	(hierarchical_label "B4"
+		(shape bidirectional)
+		(at 236.22 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b201714-67c8-4124-8acc-170bc5115044")
+	)
+	(hierarchical_label "A5"
+		(shape bidirectional)
+		(at 210.82 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ed2a5a7-3a9b-46f6-a3df-4a173a6e494c")
+	)
+	(hierarchical_label "AtoB5"
+		(shape input)
+		(at 210.82 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "960e760c-c05b-46de-8dac-1eeb76e42198")
+	)
+	(hierarchical_label "AtoB0"
+		(shape input)
+		(at 210.82 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9adb73c1-6025-480d-a8fb-5f4c56247c11")
+	)
+	(hierarchical_label "PPVAR_B"
+		(shape input)
+		(at 261.62 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a18693ea-eb9f-4063-a2a1-a39c2f9c12e8")
+	)
+	(hierarchical_label "B3"
+		(shape bidirectional)
+		(at 236.22 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af0129ca-20df-4737-aa6f-adaa80839565")
+	)
+	(hierarchical_label "A3"
+		(shape bidirectional)
+		(at 210.82 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c046fea8-7a5b-414d-bf46-fc65407f95a3")
+	)
+	(hierarchical_label "A2"
+		(shape bidirectional)
+		(at 210.82 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c118c357-f22b-471e-9e67-9847b5fa9a80")
+	)
+	(hierarchical_label "A1"
+		(shape bidirectional)
+		(at 210.82 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca9f03aa-568a-4e3b-8a03-15977c05d660")
+	)
+	(hierarchical_label "A0"
+		(shape bidirectional)
+		(at 210.82 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f57a03f0-f393-453b-8920-7e497a960aa2")
+	)
+	(hierarchical_label "B0"
+		(shape bidirectional)
+		(at 236.22 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb9732d0-8ccb-4424-b526-efcf237a76a2")
+	)
+	(symbol
+		(lib_id "Capacitors, ceramic, Murata:CCM-610AA")
+		(at 243.84 160.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0420c0ee-22fa-45bc-ad7c-215d9bae68c7")
+		(property "Reference" "C5106"
+			(at 245.6561 157.6178 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CCM-610AA"
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP, ceramic, 0.10µF, 0201, 10V, ±20%, X5R, 0.33 mm"
+			(at 243.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "val" "0.10µF"
+			(at 245.6561 159.0531 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "pkg" "0201"
+			(at 245.6561 160.3571 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "mfr" "Murata"
+			(at 245.11 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "volt" "10V"
+			(at 245.6561 161.6611 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 243.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 243.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "type" "X5R"
+			(at 245.6561 162.9651 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Params" "c=${val}"
+			(at 243.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tol" "±20%"
+			(at 246.38 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "height" "0.33mm"
+			(at 246.38 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "GRM033R61A104ME15"
+			(at 246.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0caf933e-8581-4b7e-8a92-b75004d299a5")
+		)
+		(pin "2"
+			(uuid "1b732a63-1bd6-4e15-a272-6e902f44cedb")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "C5106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Translation:LVL-2T245")
+		(at 223.52 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a517b12-355b-4d41-950c-ecb677cd93f1")
+		(property "Reference" "U5102"
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LVL-2T245"
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74avc2t245.pdf"
+			(at 223.52 156.21 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC, level shifter, 2-bit, 1.2V-3.6V, 240 Mbps, dir, QFN10"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${RIVOS_SPICE_DIR}/SN74AVCxTx45.lib"
+			(at 215.9 121.92 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=DIR2 2=OE_L 3=GND 4=B2 5=B1 6=VCCB 7=VCCA 8=A1 9=A2 10=DIR1"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "SN74AVC2T245"
+			(at 223.52 120.65 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet2" "https://assets.nexperia.com/documents/data-sheet/74AVC2T245.pdf"
+			(at 223.52 157.48 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "Texas Instruments"
+			(at 215.9 144.78 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(property "mpn" "SN74AVC2T245RSW"
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(property "mfr2" "Nexperia"
+			(at 215.9 144.78 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "mpn2" "74AVC2T245GU"
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "pkg" "QFN10"
+			(at 215.9 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(property "height" "0.55mm"
+			(at 215.9 152.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "func_lvl" ".*1;.*2"
+			(at 215.9 160.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86f729e3-b99c-493d-87ef-9a8b48581bc8")
+		)
+		(pin "10"
+			(uuid "23121be4-9101-4fa2-93d0-536a237cea94")
+		)
+		(pin "2"
+			(uuid "662f866b-1e1e-4f71-be65-2e9e42a0649b")
+		)
+		(pin "3"
+			(uuid "694e5da1-52fb-4220-b33a-1e922a722934")
+		)
+		(pin "4"
+			(uuid "9d6e11c1-a023-4a37-83e9-6e16f5f5d3bb")
+		)
+		(pin "5"
+			(uuid "2163a6fa-3b4b-4469-8152-35fc3c5b0814")
+		)
+		(pin "6"
+			(uuid "da1c9dae-22b4-4be4-9f53-5b25128e0782")
+		)
+		(pin "7"
+			(uuid "6d6d135c-e7d4-4eae-9f67-aeccbed383bc")
+		)
+		(pin "8"
+			(uuid "50a7437f-4044-4707-bfcd-8000f266e874")
+		)
+		(pin "9"
+			(uuid "5c3363f8-40f9-4298-8845-406cd315a882")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "U5102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 200.66 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "4aafe5b9-675b-44f2-ab3f-c0d3e925914c")
+		(property "Reference" "#PWR05102"
+			(at 200.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 200.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef50fe63-5093-4e41-8578-f6a7b80159f9")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "#PWR05102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Translation:LVL-2T245")
+		(at 223.52 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ecbdaa9-5d09-4cc6-aa96-bb76f986d8a0")
+		(property "Reference" "U5103"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LVL-2T245"
+			(at 215.9 157.48 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74avc2t245.pdf"
+			(at 223.52 189.23 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC, level shifter, 2-bit, 1.2V-3.6V, 240 Mbps, dir, QFN10"
+			(at 223.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${RIVOS_SPICE_DIR}/SN74AVCxTx45.lib"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=DIR2 2=OE_L 3=GND 4=B2 5=B1 6=VCCB 7=VCCA 8=A1 9=A2 10=DIR1"
+			(at 223.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "SN74AVC2T245"
+			(at 223.52 153.67 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet2" "https://assets.nexperia.com/documents/data-sheet/74AVC2T245.pdf"
+			(at 223.52 190.5 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "Texas Instruments"
+			(at 215.9 177.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(property "mpn" "SN74AVC2T245RSW"
+			(at 215.9 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(property "mfr2" "Nexperia"
+			(at 215.9 177.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "mpn2" "74AVC2T245GU"
+			(at 215.9 180.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "pkg" "QFN10"
+			(at 215.9 182.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(property "height" "0.55mm"
+			(at 215.9 185.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "func_lvl" ".*1;.*2"
+			(at 215.9 193.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a61b01e-823c-4a9c-88d4-0548633b69cc")
+		)
+		(pin "10"
+			(uuid "6ca61fe3-e639-4784-a9cf-fd918d545523")
+		)
+		(pin "2"
+			(uuid "c33e2fe0-14e3-4531-a89c-7183a45dacee")
+		)
+		(pin "3"
+			(uuid "1973a9f1-6467-4e08-8929-db9f1910ec36")
+		)
+		(pin "4"
+			(uuid "57a8d3a2-bdd6-443e-8aba-6f7caa44c0cd")
+		)
+		(pin "5"
+			(uuid "9e350343-5a9a-4769-853d-a68b140fc673")
+		)
+		(pin "6"
+			(uuid "52838600-6173-46d9-81bd-fb7184221e34")
+		)
+		(pin "7"
+			(uuid "76b7ffaa-cb73-4eaf-a38c-3e0feaf0bb8a")
+		)
+		(pin "8"
+			(uuid "50a044cd-2bbf-4138-b102-0f6a7ecf3383")
+		)
+		(pin "9"
+			(uuid "8c617373-8356-4717-bab5-5de0521f00d6")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "U5103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors, ceramic, Murata:CCM-610AA")
+		(at 200.66 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59876490-ce3a-4ff9-92d7-755938948e99")
+		(property "Reference" "C5101"
+			(at 198.8439 91.5778 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CCM-610AA"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP, ceramic, 0.10µF, 0201, 10V, ±20%, X5R, 0.33 mm"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "val" "0.10µF"
+			(at 198.8439 93.0131 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "pkg" "0201"
+			(at 198.8439 94.3171 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "mfr" "Murata"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "volt" "10V"
+			(at 198.8439 95.6211 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "type" "X5R"
+			(at 198.8439 96.9251 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Params" "c=${val}"
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tol" "±20%"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "height" "0.33mm"
+			(at 198.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "GRM033R61A104ME15"
+			(at 198.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c84ddf3-43c1-4d14-9437-106c66026016")
+		)
+		(pin "2"
+			(uuid "1edca78a-4f90-41b5-b843-1b1181ee2bb1")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "C5101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 238.76 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "611f3e6b-89ff-4b35-9ee0-35c24b8c550a")
+		(property "Reference" "#PWR05105"
+			(at 238.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 238.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61bade50-b35e-439a-9255-b0cc10e29d82")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "#PWR05105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors, ceramic, Murata:CCM-610AA")
+		(at 200.66 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f0ec5c9-22bb-45d7-835a-6f61c56d5187")
+		(property "Reference" "C5102"
+			(at 198.8439 124.5978 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CCM-610AA"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP, ceramic, 0.10µF, 0201, 10V, ±20%, X5R, 0.33 mm"
+			(at 200.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "val" "0.10µF"
+			(at 198.8439 126.0331 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "pkg" "0201"
+			(at 198.8439 127.3371 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "mfr" "Murata"
+			(at 199.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "volt" "10V"
+			(at 198.8439 128.6411 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 200.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 200.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "type" "X5R"
+			(at 198.8439 129.9451 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Params" "c=${val}"
+			(at 200.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tol" "±20%"
+			(at 198.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "height" "0.33mm"
+			(at 198.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "GRM033R61A104ME15"
+			(at 198.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57d4a6f2-8c1e-4143-a1b8-be427ef01ee2")
+		)
+		(pin "2"
+			(uuid "6394dd2d-2927-4098-a231-f8710e69d3ec")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "C5102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors, ceramic, Murata:CCM-610AA")
+		(at 243.84 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "893f5e02-7568-4db5-9e40-ae9a60114f9c")
+		(property "Reference" "C5104"
+			(at 245.6561 91.5778 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CCM-610AA"
+			(at 245.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP, ceramic, 0.10µF, 0201, 10V, ±20%, X5R, 0.33 mm"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "val" "0.10µF"
+			(at 245.6561 93.0131 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "pkg" "0201"
+			(at 245.6561 94.3171 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "mfr" "Murata"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "volt" "10V"
+			(at 245.6561 95.6211 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "type" "X5R"
+			(at 245.6561 96.9251 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Params" "c=${val}"
+			(at 243.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tol" "±20%"
+			(at 246.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "height" "0.33mm"
+			(at 246.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "GRM033R61A104ME15"
+			(at 246.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dfe2756-7547-4f77-8ce1-af8f7b86c90d")
+		)
+		(pin "2"
+			(uuid "0def489b-84ff-4a2a-a3ce-585d8eaeaedb")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "C5104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Translation:LVL-2T245")
+		(at 223.52 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8aaa9c26-319c-4422-9b36-e8e7bfa72260")
+		(property "Reference" "U5101"
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LVL-2T245"
+			(at 215.9 91.44 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74avc2t245.pdf"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC, level shifter, 2-bit, 1.2V-3.6V, 240 Mbps, dir, QFN10"
+			(at 223.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${RIVOS_SPICE_DIR}/SN74AVCxTx45.lib"
+			(at 215.9 88.9 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=DIR2 2=OE_L 3=GND 4=B2 5=B1 6=VCCB 7=VCCA 8=A1 9=A2 10=DIR1"
+			(at 223.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "SN74AVC2T245"
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet2" "https://assets.nexperia.com/documents/data-sheet/74AVC2T245.pdf"
+			(at 223.52 124.46 0)
+			(effects
+				(font
+					(size 0.5 0.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfr" "Texas Instruments"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(property "mpn" "SN74AVC2T245RSW"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(property "mfr2" "Nexperia"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "mpn2" "74AVC2T245GU"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "pkg" "QFN10"
+			(at 215.9 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(property "height" "0.55mm"
+			(at 215.9 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "func_lvl" ".*1;.*2"
+			(at 215.9 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c939dd1-22e3-4bd4-b4b9-edd8ef25d579")
+		)
+		(pin "10"
+			(uuid "7eece4f5-50bc-4e97-b99d-97e147181feb")
+		)
+		(pin "2"
+			(uuid "d7ad8534-7f72-4a6d-a5bf-f8d3ef0988f5")
+		)
+		(pin "3"
+			(uuid "8abfdb04-03d4-4438-a05a-e67edfb170ca")
+		)
+		(pin "4"
+			(uuid "82ddca50-4bdb-4443-b98c-585689b00dbe")
+		)
+		(pin "5"
+			(uuid "344ab5b3-4795-4388-85ae-5b2b8eaeca2b")
+		)
+		(pin "6"
+			(uuid "520a799a-6434-456d-9671-3119684f3faa")
+		)
+		(pin "7"
+			(uuid "8a6e89f8-3f14-4142-924c-69b2c54570e5")
+		)
+		(pin "8"
+			(uuid "e45b9cac-095a-46b3-897f-70caf8efd5e5")
+		)
+		(pin "9"
+			(uuid "bee4d276-aa70-4c35-9296-bcc51c6f677c")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "U5101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 243.84 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "9a8cf7e2-dd4f-438b-a30f-44ba7a3a943c")
+		(property "Reference" "#PWR05107"
+			(at 243.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 243.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de940457-28a3-4f6e-b94c-7d58fc004723")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "#PWR05107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 238.76 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "a4a910a2-e352-4aa4-9895-85814a3bedc2")
+		(property "Reference" "#PWR05106"
+			(at 238.76 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 238.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62bc6948-3744-48d0-9e40-a0eb11f64819")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "#PWR05106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 243.84 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ab8e5db6-b104-438f-9b5b-dce80e29a4ff")
+		(property "Reference" "#PWR05109"
+			(at 243.84 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 243.84 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01abf7e6-a422-473e-8daf-d52ca04276d9")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "#PWR05109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 238.76 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "b04afc08-71ad-4d57-ac27-4bc486ddb0a3")
+		(property "Reference" "#PWR05104"
+			(at 238.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 238.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff4691d8-d370-45b3-aef1-2073a29fd3e8")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "#PWR05104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 200.66 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "cafa1d43-7b77-4d96-b406-eaf241620955")
+		(property "Reference" "#PWR05103"
+			(at 200.66 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 200.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35db600c-17b8-4e6f-9e06-896f9000bb4d")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "#PWR05103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors, ceramic, Murata:CCM-610AA")
+		(at 200.66 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d77cdfbd-effc-4109-a93f-09a26d6c6fb3")
+		(property "Reference" "C5103"
+			(at 198.8439 157.6178 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CCM-610AA"
+			(at 199.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP, ceramic, 0.10µF, 0201, 10V, ±20%, X5R, 0.33 mm"
+			(at 200.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "val" "0.10µF"
+			(at 198.8439 159.0531 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "pkg" "0201"
+			(at 198.8439 160.3571 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "mfr" "Murata"
+			(at 199.39 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "volt" "10V"
+			(at 198.8439 161.6611 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 200.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 200.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "type" "X5R"
+			(at 198.8439 162.9651 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Params" "c=${val}"
+			(at 200.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tol" "±20%"
+			(at 198.12 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "height" "0.33mm"
+			(at 198.12 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "GRM033R61A104ME15"
+			(at 198.12 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94801180-7f5d-4b9c-b595-5992f5565cc6")
+		)
+		(pin "2"
+			(uuid "0abda144-0d67-4651-a81c-ee86d3396c1d")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "C5103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 200.66 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "e0347de7-c5c9-405b-b7c7-91fa27e4c062")
+		(property "Reference" "#PWR05101"
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 200.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9850fc80-7538-4882-9d56-542e320face2")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "#PWR05101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 243.84 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "e4db43db-2d45-4d0c-af3a-28bd4a161600")
+		(property "Reference" "#PWR05108"
+			(at 243.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\""
+			(at 243.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1314ef6-54f7-4b28-809e-6790da353181")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "#PWR05108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitors, ceramic, Murata:CCM-610AA")
+		(at 243.84 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3fec59f-4ffb-4fc6-92c8-5ee1af02ea72")
+		(property "Reference" "C5105"
+			(at 245.6561 124.5978 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CCM-610AA"
+			(at 245.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP, ceramic, 0.10µF, 0201, 10V, ±20%, X5R, 0.33 mm"
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "val" "0.10µF"
+			(at 245.6561 126.0331 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "pkg" "0201"
+			(at 245.6561 127.3371 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "mfr" "Murata"
+			(at 245.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "volt" "10V"
+			(at 245.6561 128.6411 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "type" "X5R"
+			(at 245.6561 129.9451 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Params" "c=${val}"
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "tol" "±20%"
+			(at 246.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "height" "0.33mm"
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "GRM033R61A104ME15"
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e614dbbf-d681-43c1-b3bf-76e87e2c3170")
+		)
+		(pin "2"
+			(uuid "533b2dd0-d31e-4728-ba66-6d361f75891c")
+		)
+		(instances
+			(project "scampi"
+				(path "/a762d6aa-3004-4a46-aea9-50946c64404d/c33c446f-deea-4364-8553-7a1da007efaa/f3c45dd5-62fc-4709-ba13-9b26fc849ba3"
+					(reference "C5105")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

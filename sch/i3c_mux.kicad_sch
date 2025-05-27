@@ -1,0 +1,35 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6a408ec3-d88d-4a66-957b-406ed0b2c9a6")
+	(paper "B")
+	(title_block
+		(title "${PROJ}")
+		(rev "${REV}")
+		(company "${RPN}")
+		(comment 1 "I3C MUX")
+	)
+	(lib_symbols)
+	(text "${existence}"
+		(exclude_from_sim no)
+		(at 215.9 119.38 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0a4e6abf-c34e-4746-8d4c-8a41e2f2e0f7")
+	)
+	(text "AST27x0 A1 has enough I3C pinout so no longer need this mux"
+		(exclude_from_sim no)
+		(at 186.69 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2aba3810-5c59-47d2-9ff3-684470b7a3f2")
+	)
+)

@@ -1,0 +1,35 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "98dbeedd-d618-47f0-81c4-8ece82f53f4b")
+	(paper "A4")
+	(title_block
+		(title "${PROJ}")
+		(rev "${REV}")
+		(company "${RPN}")
+		(comment 1 "LTPI BIAS NETWORK")
+	)
+	(lib_symbols)
+	(text "AST27x0 A1 embeds the bias/termination"
+		(exclude_from_sim no)
+		(at 119.38 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d590d58-ee82-4b2f-8215-c004ff214a59")
+	)
+	(text "${existence}"
+		(exclude_from_sim no)
+		(at 142.24 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae2dabf4-4960-4a61-8c82-7b09c846d5c4")
+	)
+)
