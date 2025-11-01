@@ -220,7 +220,7 @@
 		(name "")
 		(pos 112.5 3)
 		(justify right bottom)
-		(comment "SPDX-License-Identifier: LicenseRef-CERN-OHL-P-2.0+")
+		(comment "SPDX-License-Identifier : CERN-OHL-P-2.0+")
 	)
 	(bitmap
 		(name "")
